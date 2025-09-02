@@ -1,11 +1,21 @@
 # Beginner-s-Project-in-ML
+
 零基础在你自己的电脑上跑通第一个模型
+
 本项目包括五个机器学习项目：
+
 每个项目展示了完整的项目部署步骤：准备环境、加载模型和依赖、预处理数据、使用模型预测、处理结果、输出结果
+
 ## 环境配置
+
 windows系统下建议大家使用 anaconda 管理 python 环境，用 pycharm 编辑 python 项目。
+
 [anaconda教程](https://www.anaconda.com/download)
+
 [pycharm教程](https://www.jetbrains.com/zh-cn/pycharm/)
+
 ## 项目介绍
+
 项目一：基于机器学习的MgCo2O4电极材料性能预测与形貌控制项目
+
 项目二：风电功率预测项目
