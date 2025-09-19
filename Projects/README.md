@@ -17,4 +17,4 @@ pip install -r requirments.txt
 
 你的项目跑起来了，为什么呢
 
-在你阅读项目代码前：[项目结构解析](https://github.com/dztlb/Beginner-s-Project-in-ML)
+在你阅读项目代码前：[项目结构解析](https://github.com/dztlb/Beginner-s-Project-in-ML/blob/main/Library/%E9%A1%B9%E7%9B%AE%E7%BB%93%E6%9E%84%E8%A7%A3%E6%9E%90.md)
