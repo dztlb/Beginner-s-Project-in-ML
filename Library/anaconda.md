@@ -2,6 +2,8 @@
 
 [anaconda安装教程](https://www.cnblogs.com/singleYao/p/13475709.html)
 
+[anaconda视频教程](https://www.bilibili.com/video/BV1ywpgz3EZv/?spm_id_from=333.337.search-card.all.click&vd_source=7bd20288510615ec72aca912fe510a70)
+
 安装完成后请使用 anaconda prompt 配置环境而非图形界面。
 
 注意：不要更改bash环境，请创建新的环境并在新环境进行项目依赖的配置。你的anaconda本身运行在bash环境，更改bash会造成不可预知的问题。
