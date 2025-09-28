@@ -1,46 +1,20 @@
-# -*- coding: utf-8 -*-
-"""
-配置文件 - 管理数据集路径和其他配置参数
-"""
+import os
 
-# 数据集路径配置
-DATASET_PATHS = {
-    'main_dataset': 'data/data_aftercalculate.xlsx',
-    'literature_dataset': 'data/数据集来源文献.xlsx'
-}
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+DATA_DIR = os.path.join(BASE_DIR, "data")
+SRC_DIR  = os.path.join(BASE_DIR, "src")
 
-# 模型配置
-MODEL_CONFIG = {
-    'random_state': 42,
-    'test_size': 0.2,
-    'cv_folds': 5
-}
+INPUT_XLSX = os.path.join(DATA_DIR, "encoded_data.xlsx")
 
-# 特征选择配置
-FEATURE_SELECTION_CONFIG = {
-    'n_features_to_select': 8,
-    'cv_folds': 5
-}
+REPORT_DIR = os.path.join(BASE_DIR, "reports")
+FIG_DIR    = os.path.join(REPORT_DIR, "figs")
+MODEL_DIR  = os.path.join(BASE_DIR, "models")
+ARTIFACT_DIR = os.path.join(BASE_DIR, "artifacts")
 
-# 输出目录配置
-OUTPUT_DIRS = {
-    'models': 'models',
-    'results': 'results',
-    'plots': 'plots',
-    'docs': 'docs',
-    'scripts': 'scripts'
-}
+LABEL_COL = "Secondary Morphology"
 
-# 超参数调优配置
-HYPERPARAMETER_CONFIG = {
-    'RF': {
-        'n_estimators': [50, 100, 200],
-        'max_depth': [10, 20, None],
-        'min_samples_split': [2, 5, 10]
-    },
-    'XGB': {
-        'n_estimators': [50, 100, 200],
-        'max_depth': [3, 6, 9],
-        'learning_rate': [0.01, 0.1, 0.3]
-    }
-}
+RANDOM_SEED = 42
+N_JOBS = -1
+CLASS_FOLDS = 5
+PRIMARY_SCORING = "accuracy"
+FIG_DPI = 140
