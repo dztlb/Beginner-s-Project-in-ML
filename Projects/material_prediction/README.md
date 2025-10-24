@@ -1,4 +1,4 @@
-下载项目文件后，在pycharm中将 项目一 文件夹作为项目打开
+下载项目文件后，在pycharm中将 material_prediction 文件夹作为项目打开
 
 按照 requirements.txt 配置环境
 
